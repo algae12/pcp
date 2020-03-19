@@ -1,102 +1,151 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>A quick dive into practical C programming</title>
-        <style>
-        body {
-            background: black;
-            color: #00ff41;
-        }
-        
-        a {
-            color: rgb(0, 184, 245);
-        }
-        
-        #cyber {
-            width: 310px;
-        }
-        </style>
-    </head>
-    <body>
-        <h1>A quick dive into practical C programming</h1>
-        <img id="cyber" src="https://media.giphy.com/media/a6GhnspYLkSBy/giphy.gif">
-        <h3>Instructors: Omer Deutsch, Israel Vine</h3>
-        <h4>Texts:</h4>
-        <ul>
-            <li>
-                <a href="http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf">
-                    The C Programming Language
-                </a>
-            </li>
-        </ul>
-        <h4>Lectures:</h4>
-        <ul>
-            <li>
-                25.3, 13:00 - 14:00, Memory Managment in C
-            </li>
-        </ul>
-        <h4>Assignments:</h4>
-        <ul>
-            <li>
-                <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn01.pdf">
-                    Problem Set 1
-                </a>
-            </li>
-            <li>
-                <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn02.pdf">
-                    Problem Set 2
-                </a
+  <head>
+    <title>A quick dive into practical C programming</title>
+    <style>
+      body {
+        background: black;
+        color: #00ff41;
+      }
+
+      a {
+        color: rgb(0, 184, 245);
+      }
+
+      #cyber {
+        width: 310px;
+      }
+      a .gist {
+        background: #7c7c7c;
+        border-bottom: 6px inset rgba(0, 0, 0, 0.5);
+        border-left: 6px inset rgba(0, 0, 0, 0.5);
+        border-right: 6px inset rgba(255, 255, 255, 0.5);
+        border-top: 6px inset rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        color: ghostwhite;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.2rem;
+        margin: 1rem;
+        min-width: 200px;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        font-family: "VT323", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A quick dive into practical C programming</h1>
+    <img
+      id="cyber"
+      src="https://media.giphy.com/media/a6GhnspYLkSBy/giphy.gif"
+    />
+    <h3>Instructors: Omer Deutsch, Israel Vine</h3>
+    <h3>Texts:</h3>
+    <ul>
+      <li>
+        <a
+          href="http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf"
         >
-            </li>
-            <li>
-                <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn03.pdf">
-                    Problem Set 3
-                </a
+          The C Programming Language
+        </a>
+      </li>
+    </ul>
+    <h3>Lectures:</h3>
+    <ul>
+      <li>
+        25.3, 13:00 - 14:00, Memory Management in C
+      </li>
+    </ul>
+    <h3>Instructions:</h3>
+    <p>
+      This course aims to provides a thorough introduction to the C programming
+      language.
+    </p>
+    <p>Some of you, already have varying degrees of experience with C...</p>
+    <h4>Submitting Problem Sets:</h4>
+    <p>
+      Problem sets will be sent (via discord) to your assigned instructor in the
+      form of a "gist".
+    </p>
+    <a href="https://gist.github.com"
+      ><button class="gist">Upload gist</button></a
+    >
+    <h3>Assignments:</h3>
+    <ul>
+      <li>
+        <a
+          href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn01.pdf"
         >
-            </li>
-            <li>
-                <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn04.pdf">
-                    Problem Set 4
-                </a
+          Problem Set 1
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn02.pdf"
         >
-            </li>
-            <li>
-                <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn05.pdf">
-                    Problem Set 5
-                </a
+          Problem Set 2`
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn03.pdf"
         >
-            </li>
-            <li>
-                <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn06a.pdf">
-                    Problem Set 6 part 1
-                </a
+          Problem Set 3
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn04.pdf"
         >
-            </li>
-            <li>
-                <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn06b.pdf">
-                    Problem Set 6 part 2
-                </a
+          Problem Set 4
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn05.pdf"
         >
-            </li>
-            <li>
-                <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn07.pdf">
-                    Problem Set 7
-                </a
+          Problem Set 5
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn06a.pdf"
         >
-            </li>
-        </ul>
-        <h4>
-            Extra puzzles and challenges:
-            <h4>
-                <ul>
-                    <li>
-                        <a href="https://www.codingame.com/ide/puzzle/onboarding">Really cool coding game</a>
-                    </li>
-                    <li>
-                        Implement
-                        <a href="http://pi.math.cornell.edu/~lipa/mec/lesson6.html">Conway's Game of Life</a>
-                        using C
-                    </li>
-                </ul>
-            </body>
-        </html>
+          Problem Set 6 part 1
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn06b.pdf"
+        >
+          Problem Set 6 part 2
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/assignments/MIT6_087IAP10_assn07.pdf"
+        >
+          Problem Set 7
+        </a>
+      </li>
+    </ul>
+    <h3>
+      Extra puzzles and challenges:
+    </h3>
+    <ul>
+      <li>
+        <a href="https://www.codingame.com/ide/puzzle/onboarding"
+          >Really cool coding game</a
+        >
+      </li>
+      <li>
+        Implement
+        <a href="http://pi.math.cornell.edu/~lipa/mec/lesson6.html"
+          >Conway's Game of Life</a
+        >
+        using C
+      </li>
+    </ul>
+  </body>
+</html>
